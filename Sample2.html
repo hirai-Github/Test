@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>一言SNS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.1.2/css/bulma.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!-- 記述場所⑤ 背景色を調整??-->
+    <style>
+      main {
+        background-color: #eeeeee;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <!-- 記述場所② ヘッダー1. 最上部（Webサービス名表示+検索/ログイン機能）-->
+    <header class="nav">
+     <div class="nav-left">
+         <span class="nav-item">
+             <span class="fa fa-language"></span>一言SNS
+         </span>
+     </div>
+     <div class="nav-right">
+       <span class="nav-item">
+         <div class="control has-addons">
+           <input class="input" type="search" name="search" placeholder="キーワード検索">
+           <a class="button is-info"><i class="fa fa-search"></i>検索</a>
+         </div>
+       </span>
+       <span class="nav-item">
+         <a href="#" class="fa fa-user">ログイン</a>
+       </span>
+     </div>
+     <!-- 記述場所③ ヘッダー2. 中段部（アカウント名表示）--> 
+     <!-- 記述場所??? どこかわからんかった -->
+     <section class="level">
+        <div class="level-left"></div>
+        <div class="level-right">
+          <div class="level-item tabs">
+            <ul>
+              <li class="is-active"><a>最近の一言</a></li>
+                <li><a>古い一言</a></li>
+                <li><a>コメント付き</a></li>
+              </ul>
+           </div>
+        </div>
+        <div class="level-right">
+          <div class="level-item">
+            <a class="button is-greylight">フォロー</a>
+          </div>
+        </div>
+     </section>
+   </header>
+   
+     <!-- 記述場所③??? どこかわからんかった  --> 
+     <div class="hero is-info is-bold">
+        <div class="hero-body">
+            <div class="container">
+               <h1 class="title">CASAREAL</h1>
+               <h2 class="subtitle">@casareal-ls</h2>
+            </div>
+        </div>
+     </div>
+    
+    <!-- 記述場所① サイドバー部分-->
+    <main class="columns">
+      <div class="submenu column is-3">
+        <aside class="box">
+          カサレアルは、ＸＸＸＸＸＸＸＸを実現する会社です。私たちは△△△△△△△△を通じて社会に貢献していきます。
+        </aside>
+        <aside class="box menu">
+           <p class="menu-label">
+              おすすめの一言
+           </p>
+           <ul class="menu-list">
+               <li><a href="#">株式会社カサ<small>@casainc</small></a></li>
+               <li><a href="#">レア製作所<small>@rea-product</small></a></li>
+               <li><a href="#">オフィス・アル<small>@office-al</small></a></li>
+            </ul>
+            <p class="menu-label">
+                キーワード
+            </p>
+            <ul class="menu-list">
+               <li><a href="#">システム開発</a></li>
+               <li><a class="is-active" href="#">技術教育</a>
+                   <ul>
+                     <li><a href="#">一社研修</a></li>
+                     <li><a href="#">定期開催コース</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">ソフトウェアテスティング</a></li>
+            </ul>
+         </aside>
+      </div>
+      <div class="column">
+          <!--本文-->
+          <article class="box media">
+             <figure class="media-left">
+                <p class="image is-64x64">
+                   <img src="http://placehold.it/128x128">
+                </p>
+             </figure>
+             <div class="media-content">
+                <div class="content">
+                   <p><strong>CASAREAL</strong><br>
+                      内容、内容、内容、内容、内容、内容、内容、内容、内容、内容、内容、内容、内容<br>
+                      <small><a>Like</a> · <a>Reply</a> · 3 hrs</small>
+                    </p>
+                </div>
+                <article class="media">
+                    <figure class="media-left">
+                       <p class="image is-48x48">
+                          <img src="http://placehold.it/96x96">
+                       </p>
+                    </figure>
+                    <div class="media-content">
+                       <div class="content">
+                         <p><strong>Sean Brown</strong><br>
+                            コメントコメントコメントコメントコメントコメントコメントコメントコメントコメント<br>
+                            <small><a>Like</a> · <a>Reply</a> · 2 hrs</small>
+                         </p>
+                       </div>
+                       <article class="media">
+                          リプライリプライリプライリプライリプライリプライリプライリプライリプライリプライ。
+                       </article>
+                       <article class="media">
+                          リプライリプライリプライリプライリプライリプライリプライリプライリプライリプライ。
+                       </article>
+                    </div>
+                </article>
+             </div>
+          </article>
+          <article class="box media">
+             <figure class="media-left">
+                <p class="image is-48x48">
+                   <img src="http://placehold.it/96x96">
+                </p>
+             </figure>
+             <div class="media-content">
+                <div class="content">
+                   <p><strong>CASAREAL</strong><br>
+                     内容、内容、内容、内容、内容、内容、内容、内容、内容、内容、内容、内容、内容、内容<br>
+                     <small><a>Like</a> · <a>Reply</a> · 2 hrs</small>
+                   </p>
+                </div>
+             </div>
+          </article>
+      </div>
+    </main>
+    
+    <!-- 記述場所④ フッター -->
+    <footer class="footer">
+       <div class="container">
+         <div class="content has-text-centered">
+           2016 ©CASAREAL
+         </div>
+       </div>
+    </footer>
+  </body>
+</html>
+
+
+
+
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
